@@ -1,0 +1,31 @@
+﻿Build started 4/11/2016 10:41:35 PM.
+     1>Project "C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\console32\console32.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\Debug\console32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\Debug\console32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH:NO Debug\Encrypt.obj
+     1>Encrypt.obj : warning LNK4258: directive '/ENTRY:main@0' not compatible with switch '/ENTRY:main'; ignored
+         console32.vcxproj -> C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\Debug\console32.exe
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: The "METAGEN" task failed unexpectedly.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: System.BadImageFormatException: Could not load file or assembly 'file:///C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\Debug\console32.exe' or one of its dependencies. The module was expected to contain an assembly manifest.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: File name: 'file:///C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\Debug\console32.exe'
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at System.Reflection.Assembly.ReflectionOnlyLoadFrom(String assemblyFile)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.MetaDumper.GenerateAssemblyMeta(String theModule, String refSearchPath)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.MetaDumper.GenerateAssemblyMeta(String theModule, String refSearchPath)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.AsmMeta.CreateMeta(String assemblyFileName, String searchPath, String metaFileName)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.CPPTasks.METAGEN.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.BackEnd.TaskExecutionHost.Microsoft.Build.BackEnd.ITaskExecutionHost.Execute()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018:    at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__20.MoveNext()
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: WRN: Assembly binding logging is turned OFF.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: Note: There is some performance penalty associated with assembly bind failure logging.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MetaGen.targets(52,5): warning MSB4018: 
+     1>Done Building Project "C:\Computer Architecture I Assignment 2 - Agilan Ampigaipathar and Christien Soosaipillai\console32 - Part 1 - Encrypt\console32\console32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32
